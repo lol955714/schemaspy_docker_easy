@@ -1,4 +1,3 @@
-Install docker
-give execution permisions to create.sh or bash ./create.sh
-this will create the data from schemaspy and mount a nginx with the result
-the will be open with firefox
+Install docker.
+Give execution permisions to create.sh or use bash create.sh
+This will create the data from schemaspy and mount a nginx with the result and will be open with firefox.
