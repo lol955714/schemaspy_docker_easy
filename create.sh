@@ -1,4 +1,5 @@
 #! /bin/bash
+mkdir -p target
 docker run -v "${PWD}/target:/output" -v "${PWD}/config:/config"  schemaspy/schemaspy:latest -configFile /config/schemaspy.properties  -noimplied -nopages -l
 docker build . -t schemaspy
 docker stop schemaspy
